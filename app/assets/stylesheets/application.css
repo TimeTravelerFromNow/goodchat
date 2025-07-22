@@ -1,0 +1,22 @@
+.comment-container {
+  border: solid;
+  border-radius: 10px;
+  margin: 30px;
+  padding: 20px;
+  width: max-content;
+}
+.status-badge{
+  --status-good: rgb(31, 225, 31);
+  --status-hateful: rgb(222, 24, 24);
+  --status-spam: rgb(212, 189, 15);
+  border: solid;
+  border-radius: 4px;
+  margin: 5px;
+  padding: 4px;
+  width: 120px;
+  color: blue;
+}
+
+:root {
+  font-family: "Gill Sans", sans-serif;
+}
